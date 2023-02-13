@@ -5,5 +5,5 @@
 </p>
 
 <p align="center">
-  :movie_camera: <a href="https://github.com/mselek/movies-data-api/">Go to the website</a> :movie_camera:
+  :movie_camera: <a href="https://mselek.github.io/movies-data-api/">Go to the website</a> :movie_camera:
 </p>
