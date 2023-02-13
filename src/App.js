@@ -10,7 +10,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="https://mselek.github.io/movies-data-api" exact element={<Home />} />
         <Route path="*" exact element={<Error />} />
       </Routes>
     </BrowserRouter>
