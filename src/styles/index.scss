@@ -1,0 +1,14 @@
+@import './settings.scss';
+@import './animations.scss';
+
+/* Pages */
+@import './pages/Home.scss';
+@import './pages/Error.scss';
+
+/* Components */
+@import './components/Card.scss';
+@import './components/Details.scss';
+@import './components/Loader.scss';
+
+/* Responsive */
+@import './responsive.scss';

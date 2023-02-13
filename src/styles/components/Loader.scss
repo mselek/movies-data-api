@@ -1,0 +1,38 @@
+.spinner {
+    position: absolute;
+    width: 22.4px;
+    height: 22.4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.spinner::before,
+.spinner::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: spinner-b4c8mmmd 0.4s backwards, spinner-49opz7md 1s 0.4s infinite ease;
+    border: 5.6px solid #118ab2;
+    border-radius: 50%;
+    box-shadow: 0 -33.6px 0 -5.6px #118ab2;
+    position: absolute;
+}
+
+.spinner::after {
+    animation-delay: 0s, 1s;
+}
+
+@keyframes spinner-b4c8mmmd {
+    from {
+        box-shadow: 0 0 0 -5.6px #118ab2;
+    }
+}
+
+@keyframes spinner-49opz7md {
+    to {
+        transform: rotate(360deg);
+    }
+}

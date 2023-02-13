@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Variables */
+$dark: #03191E;
+$red: #941C2F;
+$white: #F4F1DE;
+$blue: #118ab2;
+$darkgray: #1B1B1B;
+
+/* Reset */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    // disable android blue highlight when press/touch
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: $blue $dark;
+}
+
+html, body {
+    background-color: $dark;
+    color: #fff;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: $blue $dark;
+}
+
+*::-webkit-scrollbar,
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+    width:10px
+}
+
+*::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-thumb {
+    background-color: $blue;
+}
+
+*::-webkit-scrollbar-track-piece,
+body::-webkit-scrollbar-track-piece,
+html::-webkit-scrollbar-track-piece {
+    background-color: $dark;
+}
+
+*::-webkit-scrollbar-button,
+body::-webkit-scrollbar-button,
+html::-webkit-scrollbar-button {
+    display:none
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}

@@ -1,0 +1,43 @@
+/* > 576px */
+@media screen and (min-width: 576px) {
+
+    .results {
+        text-align: inherit;
+    }
+
+    .Card {
+        width: calc(100% / 2);
+    }
+}
+
+/* > 768px */
+@media screen and (min-width: 768px) {
+
+    .Card {
+        width: calc(100% / 4);
+    }
+}
+
+/* > 992px */
+@media screen and (min-width: 992px) {
+    
+    .Card {
+        width: calc(100% / 6);
+    }
+}
+
+/* > 1200px */
+@media screen and (min-width: 1200px) {
+    
+    .Card {
+        width: calc(100% / 8);
+    }
+}
+
+/* > 1400px */
+@media screen and (min-width: 1400px) {
+    
+    .Card {
+        width: calc(100% / 10);
+    }
+}

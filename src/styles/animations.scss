@@ -1,0 +1,113 @@
+// fade in
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+// reverse fade in
+@keyframes reverseFadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes reverseFadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+// scale
+@keyframes scale {
+    from {
+        transform: scale(1,1);
+    }
+    to {
+        transform: scale(0,0);
+    }
+}
+
+@-webkit-keyframes scale {
+    from {
+        transform: scale(1,1);
+    }
+    to {
+        transform: scale(0,0);
+    }
+}
+
+// rotate scale
+@keyframes rotateScale {
+    from {
+        transform: scale(1,1) rotate(0deg);
+    }
+    to {
+        transform: scale(0,0) rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes rotateScale {
+    from {
+        transform: scale(1,1) rotate(0deg);
+    }
+    to {
+        transform: scale(0,0) rotate(-360deg);
+    }
+}
+
+// slide to left
+@keyframes slideToLeft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@-webkit-keyframes slideToLeft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+// reverse slide to left
+@keyframes reverseSlideToLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@-webkit-keyframes reverseSlideToLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}

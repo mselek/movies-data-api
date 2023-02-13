@@ -1,0 +1,69 @@
+/* Header */
+header {
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-family: 'Righteous';
+        color: $blue;
+        white-space: nowrap;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        filter: drop-shadow(2px 2px 5px black) drop-shadow(-2px -2px 5px black);
+    }
+}    
+
+/* Form */
+form {
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        width: 100%;
+        max-width: 500px;
+        padding: 15px;
+        outline: none;
+        border: inherit;
+        border-radius: 10px;
+        background-color: $darkgray;
+        color: $blue;
+        caret-color: $blue;
+        text-transform: uppercase;
+        transition: box-shadow .3s linear;
+        
+        &::placeholder {
+            color: $blue;
+        }
+
+        &:focus {
+            box-shadow: 2px 2px 5px $blue, -2px -2px 5px $blue;
+        }
+    }
+
+    svg {
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        filter: drop-shadow(2px 2px 5px black) drop-shadow(-2px -2px 5px black);
+        transition: fill .3s linear;
+
+        &:hover {
+            fill: $red;
+        }
+    }
+}
+
+/* Results */
+.results {
+    width: 100%;
+    text-align: center;
+}
